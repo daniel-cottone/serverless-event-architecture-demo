@@ -1,6 +1,7 @@
 {
   "name": "serverless-event-architecture",
   "version": "0.1.0",
+  "license": "UNLICENSED",
   "bin": {
     "serverless-event-architecture": "bin/serverless-event-architecture.js"
   },
@@ -8,7 +9,7 @@
     "build": "tsc",
     "watch": "tsc -w",
     "test": "jest",
-    "cdk": "cdk"
+    "cdk": "AWS_PROFILE=asurion-poc.pspdevops cdk"
   },
   "devDependencies": {
     "@types/jest": "^27.5.2",
